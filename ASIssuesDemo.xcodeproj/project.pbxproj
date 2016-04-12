@@ -14,6 +14,7 @@
 		AB8D15E91CBD3A1600EA9922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8D15E71CBD3A1600EA9922 /* Main.storyboard */; };
 		AB8D15EB1CBD3A1600EA9922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8D15EA1CBD3A1600EA9922 /* Assets.xcassets */; };
 		AB8D15EE1CBD3A1600EA9922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8D15EC1CBD3A1600EA9922 /* LaunchScreen.storyboard */; };
+		AB8D15F71CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8D15F61CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		AB8D15EA1CBD3A1600EA9922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8D15ED1CBD3A1600EA9922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8D15EF1CBD3A1600EA9922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8D15F51CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSpacingIssueDemoNode.h; sourceTree = "<group>"; };
+		AB8D15F61CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSpacingIssueDemoNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				AB8D15EC1CBD3A1600EA9922 /* LaunchScreen.storyboard */,
 				AB8D15EF1CBD3A1600EA9922 /* Info.plist */,
 				AB8D15DE1CBD3A1600EA9922 /* Supporting Files */,
+				AB8D15F51CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.h */,
+				AB8D15F61CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.m */,
 			);
 			path = ASIssuesDemo;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				AB8D15E61CBD3A1600EA9922 /* ViewController.m in Sources */,
 				AB8D15E31CBD3A1600EA9922 /* AppDelegate.m in Sources */,
 				AB8D15E01CBD3A1600EA9922 /* main.m in Sources */,
+				AB8D15F71CBD3C4E00EA9922 /* JMSpacingIssueDemoNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
