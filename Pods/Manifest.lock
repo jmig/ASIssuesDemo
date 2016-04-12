@@ -12,7 +12,16 @@ PODS:
     - PINRemoteImage/Core
 
 DEPENDENCIES:
-  - AsyncDisplayKit (~> 1.9.6)
+  - AsyncDisplayKit (from `https://github.com/facebook/AsyncDisplayKit.git`)
+
+EXTERNAL SOURCES:
+  AsyncDisplayKit:
+    :git: https://github.com/facebook/AsyncDisplayKit.git
+
+CHECKOUT OPTIONS:
+  AsyncDisplayKit:
+    :commit: 364013a3332405300b0bc4a21e7b8917b3a353d7
+    :git: https://github.com/facebook/AsyncDisplayKit.git
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: 1701c47761a3e274b82cc0c77e6294cfa69612f6
